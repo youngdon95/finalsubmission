@@ -1,0 +1,367 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--
+Template Name: Education Time
+Author: <a href="http://www.os-templates.com/">OS Templates</a>
+Author URI: http://www.os-templates.com/
+Licence: Free to use under our free template licence terms
+Licence URI: http://www.os-templates.com/template-terms
+-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Wolmers Boys High School</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link rel="stylesheet" href="layout/styles/layout.css" type="text/css" />
+    <link rel="stylesheet" href="foot.css" type="text/css" />
+    	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="keywords" content="footer, address, phone, icons" />
+
+
+
+	<link rel="stylesheet" href="css/demo.css">
+	<link rel="stylesheet" href="css/footer-distributed-with-address-and-phones.css">
+	
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+
+	<link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css"> 
+    <style type="text/css">
+  body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  line-height: 1.42em;
+  color:white;
+    background: url("formula.jpg") no-repeat top center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+
+
+}
+
+h1 {
+  font-size:3em; 
+  font-weight: 300;
+  line-height:1em;
+  text-align: center;
+  color: #4DC3FA;
+}
+
+h2 {
+   
+  font-weight: 300;
+  text-align: center;
+  display: block;
+  line-height:1em;
+  padding-bottom: 2em;
+  color: #FB667A;
+  text-align: left;
+}
+
+h2 a {
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #FB667A;
+  text-decoration: none;
+}
+
+.blue { color: #185875; }
+.yellow { color: #FFF842; }
+
+.container th h1 {
+	  font-weight: bold;
+	  font-size: 1em;
+  text-align: left;
+  color: white;
+}
+#instruction h1{
+	color:white;
+}
+a{
+	color: white;
+}
+.container td {
+	  font-weight: normal;
+	  font-size: 1em;
+  -webkit-box-shadow: 0 2px 2px -2px #0E1119;
+	   -moz-box-shadow: 0 2px 2px -2px #0E1119;
+	        box-shadow: 0 2px 2px -2px #0E1119;color: white;
+	
+}
+
+.container {
+	  text-align: left;
+	  overflow: hidden;
+	  width: 80%;
+	  margin: 0 auto;
+  display: table;
+  padding: 0 0 8em 0;
+   color: white;
+}
+
+.container td, .container th {
+	  padding-bottom: 2%;
+	  padding-top: 2%;
+  padding-left:2%;  
+  color:white;
+}
+
+/* Background-color of the odd rows */
+.container tr:nth-child(odd) {
+	  background-color: #323C50;
+ color: white;
+	
+}
+
+/* Background-color of the even rows */
+.container tr:nth-child(even) {
+	  background-color: #2C3446;
+ color: white;
+	
+}
+
+.container th {
+	  background-color: #1F2739;
+	  color: white;
+}
+
+.container td:first-child { color: white; }
+
+.container tr:hover {
+   background-color: #464A52;
+-webkit-box-shadow: 0 6px 6px -6px #0E1119;
+	   -moz-box-shadow: 0 6px 6px -6px #0E1119;
+	        box-shadow: 0 6px 6px -6px #0E1119;
+}
+         #box{
+             height: auto;
+             width: auto;
+         }
+
+.container td:hover {
+  background-color: #FFF842;
+  color: #403E10;
+  font-weight: bold;
+  
+  box-shadow: #7F7C21 -1px 1px, #7F7C21 -2px 2px, #7F7C21 -3px 3px, #7F7C21 -4px 4px, #7F7C21 -5px 5px, #7F7C21 -6px 6px;
+  transform: translate3d(6px, -6px, 0);
+  
+  transition-delay: 0s;
+	  transition-duration: 0.4s;
+	  transition-property: all;
+  transition-timing-function: line;
+}
+#instruction{
+	width:500px;
+	height:100px;
+	background-color: #1F2739;
+	text-align: left;
+}
+
+@media (max-width: 800px) {
+.container td:nth-child(4),
+.container th:nth-child(4) { display: none; }
+}
+.modalDialog {
+	position: fixed;
+	font-family: Arial, Helvetica, sans-serif;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+	z-index: 99999;
+	opacity:0;
+	-webkit-transition: opacity 400ms ease-in;
+	-moz-transition: opacity 400ms ease-in;
+	transition: opacity 400ms ease-in;
+	pointer-events: none;
+}
+.modalDialog:target {
+	opacity:1;
+	pointer-events: auto;
+}
+
+.modalDialog > div {
+	width: 400px;
+	color:blue;
+	position: relative;
+	margin: 10% auto;
+	padding: 5px 20px 13px 20px;
+	border-radius: 10px;
+	background: #fff;
+	background: -moz-linear-gradient(#fff, #999);
+	background: -webkit-linear-gradient(#fff, #999);
+	background: -o-linear-gradient(#fff, #999);
+}
+.close {
+	background: #606061;
+	color: #FFFFFF;
+	line-height: 25px;
+	position: absolute;
+	right: -12px;
+	text-align: center;
+	top: -10px;
+	width: 24px;
+	text-decoration: none;
+	font-weight: bold;
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	border-radius: 12px;
+	-moz-box-shadow: 1px 1px 3px #000;
+	-webkit-box-shadow: 1px 1px 3px #000;
+	box-shadow: 1px 1px 3px #000;
+}
+
+.close:hover { background: #00d9ff; }
+
+
+</style>
+</head>
+<body id="top">
+<div class="wrapper row1">
+  <div id="header" class="clear">
+    <div class="fl_left">
+     <center> <h1><a href="../index.html">Wolmers Boys High School</a></h1></center>
+
+    </div>
+    
+  </div>
+</div>
+<!-- ####################################################################################################### -->
+<div class="wrapper row2">
+  <div id="topnav">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li ><a href="registration.html">Registration</a></li>
+      <li><a href="grades.html">Grades</a></li>
+        <li class="active"><a href="timetable.html">Time Table</a></li>
+      <li><a href="information.html">Personal Info</a></li>
+      <li id="right"><a href="https://registration-system-champion-boy.c9users.io/login.php">Logout</a></li>
+    </ul>
+    <div  class="clear"></div>
+  </div>
+</div>
+<!-- ####################################################################################################### -->
+
+
+</div>
+<div id="openModal" class="modalDialog">
+	<div>
+		<a href="#close" title="Close" class="close">X</a>
+		<h1>Monday</h1>
+		<p>Hey Romario</p>
+		<p>This is what your Mondays look like:</p>
+		<p>From 8 am to 10 am you have Mathematics</p>
+		<p>From 10 am to 12 noon you have English A</p>
+		<p>From 12 pm to 1pm noon you can have lunch</p>
+		<p>From 1 until 3 you have Spanish</p>
+		<p>Have a wonderful day</p>
+	</div>
+</div>
+
+<div id="box">
+<center><div id="instruction"> <h1>Time Table</h1>
+<p>Instruction: Click on the individual days of the week to see classes for that day</p></div></center><br><br>
+
+<table class="container">
+	<thead>
+		<tr>
+			<th><h1>Days</h1></th>
+			<th><h1>8am-10pm</h1></th>
+			<th><h1>10am-12pm</h1></th>
+			<th><h1>1pm-3pm</h1></th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td><a href="#openModal">Monday</a></td>
+			<td>English </td>
+			<td>Spanish</td>
+			<td>Chemistry</td>
+		</tr>
+		<tr>
+			<td>Tuesday</td>
+			<td>French</td>
+			<td>Info Tech</td>
+			<td>Spanish </td>
+		</tr>
+		<tr>
+			<td><h3>Wednesday</h3></td>
+			<td>English</td>
+			<td>Geography</td>
+			<td>Physics</td>
+		</tr>
+    <tr>
+			<td>Thursday</td>
+			<td>French</td>
+			<td>Spanish</td>
+			<td>Info Tech</td>
+		</tr>
+    <tr>
+			<td>Friday</td>
+			<td>Chinese</td>
+			<td>French</td>
+			<td>English</td>
+		</tr>
+
+	</tbody>
+</table>
+    </div>
+<!-- ####################################################################################################### -->
+<!-- The content of your page would go here. -->
+
+		<footer class="footer-distributed">
+
+			<div class="footer-left">
+
+				<h3>Age Quod<span>Agis</span></h3>
+
+
+
+				<p class="footer-company-name">Wolmers Boys High School &copy; 2016</p>
+			</div>
+
+			<div class="footer-center">
+
+				<div>
+					<i class="fa fa-map-marker"></i>
+					<p><span>21 Revolution Street</span> Kingston, Jamaica</p>
+				</div>
+
+				<div>
+					<i class="fa fa-phone"></i>
+					<p>+1 555 123456</p>
+				</div>
+
+				<div>
+					<i class="fa fa-envelope"></i>
+					<p><a href="mailto:support@company.com">wolmersboys@highschool.com</a></p>
+				</div>
+
+			</div>
+
+			<div class="footer-right">
+
+				<p class="footer-company-about">
+					<span>About the school</span>
+					Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce euismod convallis velit, eu auctor lacus vehicula sit amet.
+				</p>
+
+				<div class="footer-icons">
+
+					<a href="#"><i class="fa fa-facebook"></i></a>
+					<a href="#"><i class="fa fa-twitter"></i></a>
+					<a href="#"><i class="fa fa-linkedin"></i></a>
+					<a href="#"><i class="fa fa-github"></i></a>
+
+				</div>
+
+			</div>
+
+		</footer>
+
+</body>
+</html>

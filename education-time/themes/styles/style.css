@@ -1,0 +1,185 @@
+body {
+    overflow:hidden;
+}
+
+h1
+{
+    margin-left:17px;
+    color:white;
+}
+
+.note
+{
+    color:white; margin-left: 17px;
+}
+
+.container
+    {
+    width:100%;
+    height:89%;
+    border:0px solid black;
+    padding-top: 9%;
+    padding-left: 5%;
+}
+
+.leftdiv
+    {
+    width:40%;
+    height:70%;
+    border: 1px solid black;
+    float: left;
+    border-right: 0px solid black;
+    background-color: #52769b;
+    overflow: hidden;
+    
+}
+
+.listdiv
+{
+    width:100%;
+    height:70%;
+    border: 0px solid black;
+    overflow: scroll;
+    overflow-x: hidden;
+    
+}
+
+.rightdiv
+    {
+    width:50%;
+    height:70%; 
+    border: 1px solid black; 
+    float:left;
+    margin: auto;
+    background-color: #effbff;
+    overflow: hidden;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+
+li {
+    
+   }
+
+li a {
+    display: block;
+    color: white;
+    text-align: left;
+    padding: 16px;
+    text-decoration: none;
+    
+}
+
+
+li a:hover {
+    background-color: #111111;}
+    
+li a:active {
+    color: green;
+}
+
+button{float: right; margin-right: 10%;display: none}
+
+li:hover button{display: block}
+
+/*.showed:before{display: none}*/
+
+.showed{
+    margin-left: 17px;
+    width:30%; height: 7%;
+    border:1px solid black;
+    display: block;
+    float:left;
+    margin-top:20px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: calibri;
+    font-weight: bold;
+
+}
+
+.register
+{
+    width:80%; height: 7%;
+    display: block;
+    margin-top:20px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: calibri;
+    font-weight: bold;  
+
+}
+
+.showedman{
+    margin-left: 17px;
+    width:30%; height: 7%;
+    border:0px solid black;
+    display: block;
+    float:left;
+    margin-top:20px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: calibri;
+    background-color: #2980b9;
+    color: white;
+    font-weight: bold;
+    
+        
+
+}
+a {text-decoration: none;}
+
+
+
+
+
+
+.key{
+    margin-left: 35%;
+    width:2%; height: 3%;
+    border:0px solid black;
+    display: inline-block;
+    
+    
+    text-align: center;
+    text-transform: uppercase;
+    font-family: calibri;
+    background-color: #2980b9;
+    color: white;
+    font-weight: bold;
+    
+}
+
+
+.k {
+    border:0px solid black; display:inline-block;margin-left: 6px;
+}
+
+
+
+.key2{
+    margin-left: 5%;
+    width:2%; height: 3%;
+    border:0px solid black;
+    display: inline-block;
+    
+    
+    text-align: center;
+    text-transform: uppercase;
+    font-family: calibri;
+    background-color: #f1c40f;
+    color: white;
+    font-weight: bold;
+    
+}
+
+
+.k2 {
+    border:0px solid black; display:inline-block;margin-left: 6px;
+}

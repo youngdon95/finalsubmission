@@ -1,0 +1,26 @@
+form {
+
+    background-color:blue;
+    border: solid;
+    color: white;
+    text-decoration: underline;
+    cursor: pointer;
+    font-family:Tahoma;
+    font-size:13px;
+}
+h1{
+    text-align:center;
+    color:green;
+}
+.container {
+        width: 400px;
+        clear: both;
+          margin-left:auto;
+  margin-right:auto;
+    }
+    .container input {
+        width: 100%;
+        clear: both;
+          margin-left:auto;
+  margin-right:auto;
+    }

@@ -1,0 +1,28 @@
+CREATE TABLE VTransaction (VIdNum VARCHAR(20),VehicleType VARCHAR(20),Make VARCHAR(20),Year VARCHAR(10),Color VARCHAR(15),
+ChassisNum VARCHAR(15),EngineNum VARCHAR(20),IssueDate VARCHAR(20),ExpiryDate VARCHAR(20),Laden VARCHAR(20),Unladen VARCHAR(20),
+Fuel VARCHAR(10),Body_Type VARCHAR(20),SpecPermit VARCHAR(20),ModPermit VARCHAR(20),Seating VARCHAR(5),CcRatig VARCHAR(10),
+Acquisition VARCHAR(15),DateAcq VARCHAR(20),PrevCerti VARCHAR(20),VStatus VARCHAR(10),IENum VARCHAR(20),
+Date_of_Entry VARCHAR(20),ImportNum VARCHAR(20),Date_of_License VARCHAR(20),LienName VARCHAR(20),LienAddr VARCHAR(20),
+LienAmount VARCHAR(20), LienDate VARCHAR(20) LienName2 VARCHAR(20), LienAddr2 VARCHAR(20),LienAmount2 VARCHAR(20),
+LienDate2 VARCHAR(20), OwnserSex VARCHAR(10), OwnerTrn VARCHAR(20), OwnerFirstName VARCHAR(20), OwnerLastName VARCHAR(20), 
+OwnerDob VARCHAR(20), OwnerStreet VARCHAR(20),OwnerCity VARCHAR(20), OwnerCountry VARCHAR(20),OwnerSex2 VARCHAR(20), 
+OwnerTrn2 VARCHAR(20), OwnerFirstName2 VARCHAR(20), OwnerLastName2 VARCHAR(20), OwnerDob2 VARCHAR(20), OwnerStreet2 VARCHAR(20)
+,OwnerCity2 VARCHAR(20),OwnerCountry2 VARCHAR(20));
+
+CREATE TABLE AppLen (first_name VARCHAR(20),last_name VARCHAR(20),middle_name VARCHAR(20), trn VARCHAR(10), place_of_b VARCHAR(15),countryOfBirth VARCHAR(15), parish VARCHAR(20),nationality VARCHAR(20), phone VARCHAR(20),country VARCHAR(20),city VARCHAR(20),street VARCHAR(10),Mother VARCHAR(20),Father VARCHAR(20),NIS VARCHAR(20),occupation VARCHAR(5),passport VARCHAR(10), gender VARCHAR(5), status VARCHAR(10), email VARCHAR(5), receipt VARCHAR(10));
+
+CREATE TABLE ApUsers (id INT(11), first_name VARCHAR(20),last_name VARCHAR(20), phone VARCHAR(20), BirthCertiNum VARCHAR(20), email VARCHAR(20), city VARCHAR(20), parish VARCHAR(20), country VARCHAR(20), birthday_day VARCHAR(5), birthday_month VARCHAR(20), birthday_year VARCHAR(20), gender VARCHAR(20), password VARCHAR(20));
+INSERT INTO ApUsers (ifirst_name,last_name, phone, BirthCertiNum, email, city, parish, country, birthday_day, birthday_month, birthday_year, gender, password)VALUES (1, "Adijah", "Palmer", "762", "2299999", "kartel@yahoo.com", "Portmore", "Kingston", "Jamaica", "7", "2", "1970", "male", "worlboss");
+
+INSERT INTO App (first_name, last_name, middle_name, trn, place_of_b, countryOfBirth, parish, nationality, phone, country, city, street, Mother, Father, NIS, occupation, passport,gender, status, email, receipt) VALUES ("Adijahh", "Palmerr", "Up", "2299999", "place", "country", "parish", "Jamaica", "767", "ja", "gaza", "strip", "worlboss", "worlboss", "mom, "father", "nis", "occ", "pass", "gen", "stat", "email", "rec");
+
+
+
+(first_name, last_name, middle_name, trn, place_of_b, countryOfBirth, parish, nationality, 
+        phone, country, city, street, Mother, Father, NIS, occupation, passport,gender, status, email) 
+        
+     CREATE TABLE Adminlogin (id INT(11), username VARCHAR(20), password VARCHAR(20)), VALUES (1,"admin1", "2016")
+     
+      INSERT INTO users (id, username, password) VALUES (2, "likemike", "michael");
+      CREATE TABLE Test (name VARCHAR(20), trn VARCHAR(10))
+      INSERT INTO Test (name, trn) VALUES ("romaro1995", "1234");

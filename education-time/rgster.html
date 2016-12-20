@@ -1,0 +1,266 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="styles/style.css" type="text/css"/>
+        <link rel="stylesheet" href="styles/pop.css" type="text/css"/>
+        <link rel="stylesheet" href="styles/foot.css" type="text/css"/>
+        <script src="action.js"></script>
+        <script src="jquery-git.js"></script>
+<style >
+    
+    
+        
+#topnav{display:block; position:relative; width:960px; margin:0 auto; font-size:12px; z-index:1000;}
+#topnav ul, #topnav li{margin:0; padding:0; list-style:none;}
+#topnav li{float:left; margin-right:30px;}
+#topnav li li{margin-right:0;}
+#topnav li a:link, #topnav li a:visited, #topnav li a:hover{display:block; margin:0; padding:15px 0; color:#F8F9F3; background-color:#072C53; text-transform:uppercase;}
+#topnav ul ul li a:link, #topnav ul ul li a:visited{border:none;}
+#topnav li a:hover, #topnav li.active a{color:#5F8EC2; background:url("images/topnav_a.gif") top center no-repeat #072C53;}
+#topnav li li a:link, #topnav li li a:visited{width:150px; float:none; margin:0; padding:7px 10px; font-size:12px; font-weight:normal; color:#F8F9F3; background-color:#072C53; background-image:none; border:none;}
+#topnav li li a:hover{color:#5F8EC2; background-color:#072C53;}
+#topnav ul ul{z-index:9999; position:absolute; left:-999em; height:auto; width:170px; border-left:1px solid #2B4D71; border-bottom:1px solid #2B4D71;}
+#topnav ul ul a{width:140px;}
+#topnav li:hover ul{left:auto;}
+#topnav li:hover{position:static;}
+#topnav li.last{margin-right:0;}
+
+/*
+Template Name: Education Time
+Author: <a href="http://www.os-templates.com/">OS Templates</a>
+Author URI: http://www.os-templates.com/
+Licence: Free to use under our free template licence terms
+Licence URI: http://www.os-templates.com/template-terms
+File: Layout CSS
+*/
+
+  body {
+    background: url("formula.jpg") no-repeat top center fixed;
+    background-size: cover;
+
+
+}
+
+
+html{overflow-y:scroll;}
+body{margin:0; padding:0; font-size:13px; font-family:Georgia, "Times New Roman", Times, serif; color:#F8F8F2; background-color:#03274B;}
+
+.justify{text-align:justify;}
+.bold{font-weight:bold;}
+.center{text-align:center;}
+.right{text-align:right;}
+.nostart{margin:0; padding:0; list-style-type:none;}
+
+.clear:after{content:"."; display:block; height:0; clear:both; visibility:hidden; line-height:0;}
+.clear{display:inline-block;}
+html[xmlns] .clear{display:block;}
+* html .clear{height:1%;}
+
+a{outline:none; text-decoration:none;}
+
+.fl_left, .imgl{float:left;}
+.fl_right, .imgr{float:right;}
+
+img{margin:0; padding:0; border:none;}
+.imgholder, .imgl, .imgr{padding:4px; border:1px solid #D7DBE0;}
+.imgl{margin:0 15px 15px 0; clear:left;}
+.imgr{margin:0 0 15px 15px; clear:right;}
+
+/* ----------------------------------------------Wrapper------------------------------------- */
+
+div.wrapper{display:block; width:100%; text-align:left;}
+div.wrapper h1, div.wrapper h2, div.wrapper h3, div.wrapper h4, div.wrapper h5, div.wrapper h6{margin:0 0 15px 0; padding:0; font-size:20px; font-weight:normal; line-height:normal;}
+.row1{color:#5F8EC2; background-color:#03274B;}
+.row1 a{color:#F8F9F3; background-color:#03274B;}
+.row2{color:#F8F9F3; background-color:#072C53; border-top:1px solid #2B4D71; border-bottom:1px solid #2B4D71;}
+
+/* ----------------------------------------------Generalise------------------------------------- */
+
+#header, #featured_slide, #container, #footer, #copyright{display:block; position:relative; width:960px; margin:0 auto;}
+
+/* ----------------------------------------------Header------------------------------------- */
+
+#header{padding:25px 0 30px 0;}
+#header h1, #header p, #header ul{margin:0; padding:0; list-style:none; line-height:normal;}
+#header h1{font-size:36px; font-variant:small-caps;}
+#header p{margin-top:4px;}
+  body {
+    background: url("formula.jpg") no-repeat top center fixed;
+    background-size: cover;
+
+
+}
+</style>        
+        
+        <title>Register</title>
+    </head>
+    
+    <body onload="load()">
+        <div class="wrapper row1">
+  <div id="header" class="clear">
+    <div class="fl_left">
+      <h1><a href="/index.html">Wolmers Boys High School</a></h1>
+      
+    </div>
+    
+  </div>
+</div>
+<!-- ####################################################################################################### -->
+<div class="wrapper row2">
+  <div id="topnav">
+    <ul>
+<li><a href="index.html">Home</a></li>
+      <li  class="active"><a href="registration.html">Registration</a></li>
+      <li><a href="https://registration-system-champion-boy.c9users.io/education-time/grades.html">Grades</a></li>
+        <li><a href="https://registration-system-champion-boy.c9users.io/education-time/timetable.html">Time Table</a></li>
+      <li><a href="https://registration-system-champion-boy.c9users.io/education-time/information.html">Personal Info</a></li>
+      <li id="right"><a href="https://registration-system-champion-boy.c9users.io/login.php">Logout</a></li>
+    </ul>
+    <div  class="clear"></div>
+  </div>
+</div>
+<!-- ####################################################################################################### -->
+
+        <div class="container">
+            
+            <div class="leftdiv">
+                <h1>Select Subjects</h1>
+                <p class="note">Click the 'select' button by each subject to add it to your list of subjects you wish to register for.</p>
+                
+                <div class="listdiv">
+                <ul class="u">
+                    <li id="list"><a href="#">Additional Mathematics <button onclick="first()">Select</button></a></li>
+                    <li id="list2"><a href="#">Agricultural Science <button onclick="second()">Select</button></a></li>
+                    <li id="list3"><a href="#">Biology <button onclick="third()">Select</button></a></li>
+                    <li id="list4"><a href="#">Building Technology <button onclick="fourth()">Select</button></a></li>
+                    <li id="list5"><a href="#">Caribbean History <button onclick="fifth()">Select</button></a></li>
+                    <li id="list6"><a href="#">Chemistry <button onclick="sixth()">Select</button></a></li>
+                    <li><a href="#">Economics <p class="no">Cannot Register</p></a></li>
+                    <li><a href="#">Electrical & Electronic Technology <p class="no">Cannot Register</p></a></li>
+                    <li><a href="#">Geography <p class="no">Cannot Register</p></a></li>
+                    <li><a href="#">Home Economics <p class="no">Cannot Register</p></a></li>
+                    <li><a href="#">Human and Social Biology <p class="no">Cannot Register</p></a></li>
+                    <li><a href="#">Information Technology <p class="no">Cannot Register</p></a></li>
+                    <li><a href="#">Integrated Science <p class="no">Cannot Register</p></a></li>
+                    <li><a href="#">Modern Languages <p class="no">Cannot Register</p></a></li>
+                    <li><a href="#">Music <p class="no">Cannot Register</p></a></li>
+                    <li><a href="#">Office Administration <p class="no">Cannot Register</p></a></li>
+                    <li><a href="#">Physical Education and Sport <p class="no">Cannot Register</p></a></li>
+                    <li><a href="#">Physics</a></li>
+                    <li><a href="#">Principles of Accounts</a></li>
+                    <li><a href="#">Principles of Business</a></li>
+                    <li><a href="#">Religious Education</a></li>
+                    <li><a href="#">Social Studies</a></li>
+                    <li><a href="#">Spanish</a></li>
+                    <li><a href="#">Technical Drawing</a></li>
+                    <li><a href="#">Theatre Arts</a></li>
+                    <li><a href="#">Visual Studies</a></li>
+                </ul>
+                </div>
+            
+            </div>
+            
+            <div class="rightdiv">
+                
+                <!-- The Modal -->
+                <div id="popup" class="popup1">
+
+                <!-- Modal content -->
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <p>YOU ARE NOW REGISTERED!</p>
+                    <p>These are the courses that you have registered for: </p>
+                    <p id="man1"></p>
+                    <p id="man2"></p>
+                    <p id="man3"></p>
+                    <p id="course1"></p>
+                    <p id="course2"></p>
+                    <p id="course3"></p>
+                    <p id="course4"></p>
+                    <p id="course5"></p>
+                    <p id="course6"></p>
+
+                    
+                </div>
+
+            </div>
+
+                <br><br><br><br><br><br>
+                <div class="showedman" id="mand1">ENGLISH A</div>
+                <div class="showedman" id="mand2">MATHEMATICS</div>
+                <div class="showedman" id="mand3">INFORMATION TECH</div>
+                <div class="showed" id="selected"></div>
+                <div class="showed" id="selected2"></div>
+                <div class="showed" id="selected3"></div>
+                <div class="showed" id="selected4"></div>
+                <div class="showed" id="selected5"></div>
+                <div class="showed" id="selected6"></div>
+                <div class="showed" id="selected7">7</div>
+                <div class="showed" id="selected8">8</div>
+                <div class="showed" id="selected8">9</div>
+                <button class="register" id="btn" onclick="reg()">Register</button>
+                
+                                
+                <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                
+            <div class="key"></div><p class="k" style="color:black">Mandatory</p>
+            <div class="key2"></div><p class="k2" style="color:black">Added</p>
+            </div>
+        
+        </div>
+          
+    	<!-- The content of your page would go here. -->
+
+		<footer class="footer-distributed">
+
+			<div class="footer-left">
+
+				<h3>Wolmers<span>Boys</span></h3>
+
+				
+
+				<p class="footer-company-name">Wolmers Boys High &copy; School</p>
+			</div>
+
+			<div class="footer-center">
+
+				<div>
+					<i class="fa fa-map-marker"></i>
+					<p><span>4 heroes circle</span> Kingston , Jamaica</p>
+				</div>
+
+				<div>
+					<i class="fa fa-phone"></i>
+					<p>+1 555 123456</p>
+				</div>
+
+				<div>
+					<i class="fa fa-envelope"></i>
+					<p><a href="">wolmers@boys.com</a></p>
+				</div>
+
+			</div>
+
+			<div class="footer-right">
+
+				<p class="footer-company-about">
+					<span>About high school</span>
+					Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce euismod convallis velit, eu auctor lacus vehicula sit amet.
+				</p>
+
+				<div class="footer-icons">
+
+					<a href="#"><i class="fa fa-facebook"></i></a>
+					<a href="#"><i class="fa fa-twitter"></i></a>
+					<a href="#"><i class="fa fa-linkedin"></i></a>
+					<a href="#"><i class="fa fa-github"></i></a>
+
+				</div>
+
+			</div>
+
+		</footer>
+    
+    </body>
+
+</html>

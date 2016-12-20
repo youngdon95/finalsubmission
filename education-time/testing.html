@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+          <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<style>
+        .loader {
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #3498db;
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+</style>
+
+    </head>
+<body>
+
+<p>Click the button to show the dialog.</p>
+
+<button onclick="myFunctionn()">Show dialog</button>
+
+<p><b>Note:</b> Use the "Esc" button to close the modal.</p>
+<p><b>Note:</b> The dialog element is only supported in Chrome 37+, Safari 6+ and Opera 24+.</p>
+
+<dialog id="myDialog">This is a dialog window</dialog>
+
+
+
+<h2>How To Create A Loader</h2>
+<p><strong>Note:</strong> The -webkit- and -ms- prefixes are for browsers that do not support animation and transform properties.</p>
+
+<div class="loader"></div>
+
+<div class="container">
+  <h2>Stacked Progress Bars</h2>
+  <p>Create a stacked progress bar by placing multiple bars into the same div with class .progress:</p> 
+  <div class="progress">
+    <div class="progress-bar progress-bar-success" role="progressbar" style="width:40%">
+      Free Space
+    </div>
+    <div class="progress-bar progress-bar-warning" role="progressbar" style="width:10%">
+      Warning
+    </div>
+    <div class="progress-bar progress-bar-danger" role="progressbar" style="width:20%">
+      Danger
+    </div>
+  </div>
+</div>
+<script>
+function myFunctionn() { 
+    document.getElementById("myDialog").showModal(); 
+} 
+</script>
+
+</body>
+</html>
